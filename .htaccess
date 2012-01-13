@@ -1,0 +1,12 @@
+# Enabling execution of cgi scripts by web-server
+# If index.cgi exist, it will be used by default
+Options ExecCGI
+AddHandler cgi-script .cgi
+DirectoryIndex index.cgi
+
+# Deny access to all ruby scripts, that has actual
+# working application code and important settings
+<Files ~ "\.(rb)$">
+  order allow,deny
+  deny from all
+</Files>

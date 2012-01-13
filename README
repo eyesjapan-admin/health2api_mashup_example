@@ -1,0 +1,22 @@
+Description:
+This document describes an example of how to use health2api directory to browse information
+and create mashup based on search results.
+
+Pre-requisites:
+
+Hpricot
+
+It can be installed quite easily:
+$: gem install hpricot
+
+How to install:
+
+1. Put all files to some folder that is rendered by the web-server ( for example under document root )
+For example, if document root is set to "/var/www/", then files would be at the /var/www/supermarket folder
+and would be accessible from http://localhost/supermarket
+
+2. Register and get API key at http://supermarketapi.com
+
+3. Edit config.rb file and add your API key
+
+Done!

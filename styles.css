@@ -1,0 +1,29 @@
+div.content {
+	padding: 10px;
+	margin: 0 0 10px 0;
+	width: 1200px;
+}
+
+div.left,
+div.right{
+	margin: 0 5px;
+	padding: 0 5px;
+}
+
+div.right{
+	float: right;
+}
+
+div.left{
+	position: fixed;
+}
+
+table.product{
+	width: 600px;
+	margin: 0 0 10px 0;
+}
+
+th.key,
+td.key {
+	width: 100px;
+}
